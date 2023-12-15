@@ -43,7 +43,6 @@ Vai exibir o caminho para o "jconn4.jan"
 # No Python
 
 ### 1. Indicar a localização do JAVA_HOME e carregar no ambiente usando a biblioteca OS
-	Problemas com identificação 
 
 ```python
 import os
@@ -78,7 +77,7 @@ conn = jaydebeapi.connect('com.sybase.jdbc4.jdbc.SybDriver',
 cursor = conn.cursor()
 ```
 
-### Se der tudo certo, é só realizar a query.
+### Se der tudo certo, é só executar a query.
 
 ```Python
 query1 = "SELECT * from DIM_PESSOA_XMLUSP"
