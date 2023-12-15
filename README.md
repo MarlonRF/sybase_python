@@ -22,26 +22,26 @@ Vai exibir o caminho para o "jconn4.jan"
 
 ![](image/20231214163231.png)
 
-2. Selecione uma conexão _Sybase jConnect_
+### 2. Selecione uma conexão _Sybase jConnect_
 
-![[Pasted image 20231214163300.png]]
+![](image/20231214163300.png)
 
-3. Baixe o driver, caso necessário.
+### 3. Baixe o driver, caso necessário.
 
-![[Pasted image 20231214164005.png]]
+![](image/20231214164005.png)
 
-4. Clique em "Configuração de Driver", em seguida na aba "Libraries" e por fim "Informação"
+### 4. Clique em "Configuração de Driver", em seguida na aba "Libraries" e por fim "Informação"
 
-![[Pasted image 20231214163531.png]]
+![](image/20231214163531.png)
 
-5.  Copie o caminho até o arquivo "jconn4.jar"
+### 5.  Copie o caminho até o arquivo "jconn4.jar"
    
-![[Pasted image 20231214163604.png]]
+![](image/0231214163604.png)
 
 
-### No Python
+# No Python
 
-1. Indicar a localização do JAVA_HOME e carregar no ambiente usando a biblioteca OS
+### 1. Indicar a localização do JAVA_HOME e carregar no ambiente usando a biblioteca OS
 	Problemas com identificação 
 
 ```python
@@ -52,7 +52,7 @@ os.environ['JAVA_HOME'] = r'C:\Program Files (x86)\Java\jre-1.8\bin\client'
 
 ```
 
-2. Conectar no Banco de dados:
+## 2. Conectar no Banco de dados:
 	Insira as informações para acessar o servidor: IP(server), usuário, senha, database e porta.
 	na variável "jdbc_driver", insira o caminho do "jconn4.jar". O resto, deixe como esta.
 ```Python
@@ -77,7 +77,7 @@ conn = jaydebeapi.connect('com.sybase.jdbc4.jdbc.SybDriver',
 cursor = conn.cursor()
 ```
 
-Se der tudo certo, é só realizar a query.
+### Se der tudo certo, é só realizar a query.
 
 ```Python
 query1 = "SELECT * from DIM_PESSOA_XMLUSP WHERE codpes = CONVERT(int,10592869)"
