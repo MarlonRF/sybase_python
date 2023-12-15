@@ -53,8 +53,10 @@ os.environ['JAVA_HOME'] = r'C:\Program Files (x86)\Java\jre-1.8\bin\client' # Ch
 ```
 
 ## 2. Conectar no Banco de dados:
-	Insira as informações para acessar o servidor: IP(server), usuário, senha, database e porta.
-	na variável "jdbc_driver", insira o caminho do "jconn4.jar". O resto, deixe como esta.
+
+Insira as informações para acessar o servidor: IP(server), usuário, senha, database e porta.
+na variável "jdbc_driver", insira o caminho do "jconn4.jar". O resto, deixe como esta.
+
 ```Python
 import jaydebeapi
 
