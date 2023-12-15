@@ -9,7 +9,7 @@ JayDeBeApi (até a data deste tutorial, funciona bem apenas no Python < 3.11)
 
 O JPype, uma dependência do JayDeBeApi, pode solicitar o "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-![Bla](image/Pasted image 20231214145831.png)
+![Bla](image/20231214145831.png)
 
 ## No DBeaver
 
