@@ -8,7 +8,9 @@ No Python, instalar as bibliotecas:
 JayDeBeApi (até a data deste tutorial, funciona bem apenas no Python < 3.11)
 
 O JPype, uma dependência do JayDeBeApi, pode solicitar o "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
 [Bla](https://github.com/MarlonRF/sybase_python/blob/main/image/Pasted%20image%2020231214145831.png)
+
 ## No DBeaver
 
 
