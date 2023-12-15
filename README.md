@@ -1,5 +1,7 @@
 # Acessar base de dados Sybase via Python
 
+Você vai precisar:
+
 * Instalar o DBeaver (vamos usar o driver dele para acessar o Sybase)
 * Instalar o Java (porque o driver está escrito em Java)
 
@@ -12,7 +14,6 @@ O JPype, uma dependência do JayDeBeApi, pode solicitar o "Microsoft C++ Build T
 ![Bla](image/20231214145831.png)
 
 ## No DBeaver
-
 
 O caminho para o _jdbc_driver_ pode ser obtido via DBbeaver: clicando botão direto no DB, 
 "Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". 
@@ -48,7 +49,7 @@ Vai exibir o caminho para o "jconn4.jan"
 import os
 
 # define o caminho para a diretorio do java
-os.environ['JAVA_HOME'] = r'C:\Program Files (x86)\Java\jre-1.8\bin\client'
+os.environ['JAVA_HOME'] = r'C:\Program Files (x86)\Java\jre-1.8\bin\client' # Checar o caminho
 
 ```
 
@@ -80,5 +81,5 @@ cursor = conn.cursor()
 ### Se der tudo certo, é só realizar a query.
 
 ```Python
-query1 = "SELECT * from DIM_PESSOA_XMLUSP WHERE codpes = CONVERT(int,10592869)"
+query1 = "SELECT * from DIM_PESSOA_XMLUSP"
 ```
