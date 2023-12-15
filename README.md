@@ -16,7 +16,7 @@ O JPype, uma dependência do JayDeBeApi, pode solicitar o "Microsoft C++ Build T
 ## No DBeaver
 
 O caminho para o _jdbc_driver_ pode ser obtido via DBbeaver: clicando botão direto no DB, 
-"Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". 
+"Nova/Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". 
 Vai exibir o caminho para o "jconn4.jan"
 
 ### 1. Abrir o DBeaver e criar uma nova conexão.
@@ -65,7 +65,7 @@ password = "senha"
 database = "nome_do_database"
 port = 5000
 
-# caminho para o jdbc_driver pode ser obtido via DBbeaver: clicando botão direto no DB, "Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". Vai exibir o caminho para o "jconn4.jan"
+# caminho para o jdbc_driver pode ser obtido via DBbeaver: clicando botão direto no DB, "Nova/Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". Vai exibir o caminho para o "jconn4.jan"
 
 jdbc_driver = 'C:\<LOCAL DE INSTAÇÃO DO DBEAVER>...\DBeaverData\drivers\drivers\sybase\jconnect\jconn4.jar'  # caminho obtido pelo DBbeaver: clicando botão direto no DB,
 
