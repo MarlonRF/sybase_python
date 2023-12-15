@@ -18,7 +18,7 @@ O caminho para o _jdbc_driver_ pode ser obtido via DBbeaver: clicando botão dir
 "Editar conexão" >> "Configurações do Driver" >> "Libraries" >> selecionar "jconn4.jan" e clicar em "informação". 
 Vai exibir o caminho para o "jconn4.jan"
 
-1. Abrir o DBeaver e criar uma nova conexão.
+### 1. Abrir o DBeaver e criar uma nova conexão.
 
 ![](image/20231214163231.png)
 
