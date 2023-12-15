@@ -20,7 +20,7 @@ Vai exibir o caminho para o "jconn4.jan"
 
 1. Abrir o DBeaver e criar uma nova conexão.
 
-![](image/Pasted image 20231214163231.png)
+(image/20231214163231.png)
 
 2. Selecione uma conexão _Sybase jConnect_
 
