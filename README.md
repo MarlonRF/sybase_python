@@ -6,8 +6,8 @@ Você vai precisar:
 * Instalar o Java (porque o driver está escrito em Java)
 
 No Python, instalar as bibliotecas:
-* JayDeBeApi (permite controlar base de dados que usam Java JDBC)
-JayDeBeApi (até a data deste tutorial, funciona bem apenas no Python < 3.11)
+* JayDeBeApi permite controlar base de dados que usam Java JDBC.
+Até a data deste tutorial, funciona bem apenas no Python < 3.11
 
 O JPype, uma dependência do JayDeBeApi, pode solicitar o "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
