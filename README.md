@@ -82,5 +82,5 @@ cursor = conn.cursor()
 ### Se der tudo certo, é só executar a query.
 
 ```Python
-query1 = "SELECT * from DIM_PESSOA_XMLUSP"
+query1 = "SELECT * from TABELA"
 ```
